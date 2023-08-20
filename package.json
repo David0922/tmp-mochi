@@ -1,0 +1,26 @@
+{
+  "name": "tmp-mochi",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf ./dist",
+    "deploy": "gh-pages -d ./dist",
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "start": "vite preview --host 0.0.0.0 --port 8080"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
+    "npm-check-updates": "^16.12.2",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.11"
+  },
+  "homepage": "https://tmp-mochi.mofu.dev"
+}
